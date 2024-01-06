@@ -132,7 +132,6 @@ class Round():
             self.show_roll_count()
             self.live = False
         elif player_bet == "E":
-            self.show_roll_count()
             if self.check_equal(memory_bet):
                 print(f"\nEqual bet correct! Player {player.get_name()} gains dice.")
                 player.gain_dice()
