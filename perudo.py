@@ -88,7 +88,6 @@ class Round():
         for player in self.game.players:
             if not player.is_alive():
                 self.game.players.remove(player)
-                #self.game.turn += 1
                 if len(self.game.players) == 1:
                     self.game.game_over = True
         print("Round over")
@@ -216,7 +215,6 @@ class Perudo():
             print(f"{player.get_name()}: {player.count_dice()} dice")
             
 if __name__ == '__main__':
-    
     yes_or_no = input("Do you want to play Perudo? y/n ")
     if yes_or_no == "y":
         dice = int(input("Please provide a number of dice: "))
