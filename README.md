@@ -1,2 +1,2 @@
 # Perudo
-A game of Perudo / Liar's dice
+A game of Perudo in Python
