@@ -218,7 +218,6 @@ class Perudo():
 if __name__ == '__main__':
     
     yes_or_no = input("Do you want to play Perudo? y/n ")
-    
     if yes_or_no == "y":
         dice = int(input("Please provide a number of dice: "))
         players = input("Please provide player names separated by a space: ").split()
