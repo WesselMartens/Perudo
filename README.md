@@ -1,2 +1,2 @@
 # Perudo
-A game of Perudo in Python
+A game of Perudo
