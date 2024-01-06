@@ -73,8 +73,7 @@ class Round():
         round_cycle = list(islice(cycle(self.game.players), self.game.turn, 100))
         for player in round_cycle:
             if self.live == True:
-                print(self.game.turn)
-                if self.game.dark: print("\n"*25) # meh
+                if self.game.dark: print("\n"*25)
                 print("\nBets this round: ", *self.bets)
                 print(f"{player.get_name()} has dice:", player.show_dice())
                 player_bet = input(f"Player {player.get_name()} bets: ")
